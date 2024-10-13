@@ -1,0 +1,237 @@
+/* Logo */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@739&family=Sixtyfour+Convergence:SCAN,XELA,YELA@5,35,29&display=swap');
+.logo_ol {
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 750;
+    font-style: normal;
+    font-size: 45px;
+    padding-left:15px;
+    color: rgb(19, 39, 195);
+    text-shadow: 0 1px #808d93, -1px 0 #cdd2d5, -1px 2px #808d93, -2px 1px #cdd2d5, -2px 3px #808d93, -3px 2px #cdd2d5, -3px 4px #808d93, -4px 3px #cdd2d5, -4px 5px #808d93, -5px 4px #cdd2d5, -5px 6px #808d93, -6px 5px #cdd2d5, -6px 7px #808d93, -7px 6px #cdd2d5, -7px 8px #808d93, -8px 7px #cdd2d5, 5px -5px 2px rgba(206,89,55,0.07);
+
+}
+
+*{
+    margin:0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    height:100%;
+    box-sizing:border-box;
+}
+
+
+.navbar-expand .navbar-nav .nav-link {
+    padding-right: var(--bs-navbar-nav-link-padding-x);
+    padding-left: var(--bs-navbar-nav-link-padding-x);
+    margin-left: 40px;
+}
+
+a,p,h2,h1 {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    flex: 1;
+    display: block;
+    align-items: center;
+
+}
+
+a:hover {
+    display: block;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(217, 224, 224);
+    font-size: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+}
+
+.item {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    align-items: center;
+}
+
+.item:hover {
+    background-color: rgb(155, 149, 149);
+}
+
+/* khung thu 2  */
+.khungthu2{
+    display:flex;
+    align-items:center;
+    margin-left:150px;
+    margin-right:120px;
+    margin-top:20px;
+    object-fit: contain;
+    filter: drop-shadow(0 0 7px blue);
+    color: white;
+    border-radius: 15px;
+}
+/* khung trai */
+.khungtrai_khungthu2{
+    position:relative;
+}
+.khungtrai_khungthu2 img{
+    border-radius: 15px;
+}
+.khungtrai_khungthu2::before{
+    content:"";
+    width:100%;
+    height:100%;   
+    background-color:white;
+    background: linear-gradient(to left, white, rgba(232, 227, 227, 0.341));
+    position:absolute;
+    
+}
+/* khung giữa */
+.khunggiua_khungthu2{
+    width:40px;
+    height:300px;
+}
+
+
+/* khung thu 3 */
+.khungthu3{
+    margin-left:150px;
+    margin-right:120px;
+    display:flex;
+    align-items:center;
+    margin-top:20px;
+}
+/* item 1 khung thu 3 */
+.item1_khungthu3{
+    width:100%;
+    text-decoration:none;
+}
+.content__item1_khungthu3 h1{
+    color:black;
+}
+/* item 2 khung thu 3 */
+.item2_khungthu3{
+    width:100%;
+    margin-bottom:5px;
+    margin-left:100px;
+    text-decoration:none;
+}
+.content__item2_khungthu3 h1{
+    color:black;
+}
+
+
+/* khung thứ 4 */
+#first_video{
+    margin-top:10px;
+}
+.khungthu4{
+    margin-top:20px;
+    margin-right:90px;
+    margin-left:150px;
+    display:flex;
+    background-color:rgb(217, 224, 224);;
+}
+ 
+/* khung trai */
+
+.khungtrai_khungthu4{
+    width:50%;
+}
+h1,p{
+    color:black;
+}
+/* item 1 khung trái */
+.item1__khungtrai_khungthu4{
+    text-decoration: none;
+    width:100%;
+    margin-top:20px;
+}
+.item1__khungtrai_khungthu4 h4{
+    color:black;
+}
+/* item 2 khung trái */
+.item2__khungtrai_khungthu4{
+    width:100%;
+    text-decoration:none;
+    margin-top:40px;
+}
+.item2__khungtrai_khungthu4 h4{
+    color:black;
+}
+/* item 3 khung trái */
+.item3__khungtrai_khungthu4{
+    width:100%;
+    text-decoration:none;
+    margin-top:40px;
+}
+.item3__khungtrai_khungthu4 h4{
+    color:black;
+}
+
+/* khung phai */
+
+.khungphai_khungthu4{
+    border: 3px solid black;
+    border-radius:15px;
+    border: color;
+    width:50%;
+    margin-right:0;
+}
+.video__khungphai_khungthu4{
+    margin-top:40px;
+    margin-bottom:auto;
+    margin-left:60px;
+}
+
+/* Phần cuối */
+.last_container{
+    margin-left:150px;
+    margin-top:40px;
+    
+}
+.box1__last_container{
+    margin-top:20px;
+}
+.icon__box1__last_container{
+    display:flex;
+    text-decoration:none;
+}
+.icon__box1__last_container:hover{
+    opacity:0.5;
+    transform:ease-in-out 0.3s all;
+    cursor:pointer;
+}
+.icon__box1__last_container h3{
+    margin-left:10px;
+    margin-bottom:5px;
+    color:black;
+}
+
+
+/* Phần chân */
+.footer{
+    margin-top:20px;
+    margin-bottom:0;
+    background-color:rgb(217, 224, 224);
+    display:block;
+    width:100%;
+    height:100%;
+    text-align:center;
+}
+.footer::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.h1_footer{
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: calc(1.3rem + .6vw);   
+}
